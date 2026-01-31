@@ -1,0 +1,149 @@
+# 🎉 Editor de Plantillas de Cumpleaños - Almacenes del Perú
+
+## 📦 INSTRUCCIONES DE USO
+
+### ✅ EJECUTAR LA APLICACIÓN
+
+Simplemente haz **doble clic** en:
+```
+Editor_Cumpleanos.exe
+```
+
+**NO SE REQUIERE PYTHON INSTALADO** ✨
+
+---
+
+## 🎯 CÓMO USAR EL EDITOR
+
+### 1️⃣ PESTAÑA: CONFIGURACIÓN
+
+**Cargar Archivos:**
+- Haz clic en "📁 Cargar Plantilla" para seleccionar tu imagen (PNG, JPG, WebP)
+- Haz clic en "🔤 Cargar Fuente" para seleccionar tu fuente (TTF, OTF)
+
+**Ajustar Límites:**
+- Verás **rectángulos de colores** sobre la imagen:
+  - 🔴 **Rojo** = Límites del NOMBRE
+  - 🔵 **Azul** = Límites del CARGO
+  
+- **Para REDIMENSIONAR:** Arrastra los círculos en las esquinas
+- **Para MOVER:** Arrastra el círculo amarillo del centro
+
+**Configurar Colores:**
+- Elige el color para el nombre y cargo
+- Selecciona el peso de la fuente (Bold/Regular/Light)
+
+**Zoom:**
+- Usa los botones 🔍+ / 🔍- para acercar/alejar
+- Útil para ajustar con precisión
+
+**Guardar tu Configuración:**
+- "💾 Guardar Configuración" → Exporta a archivo JSON
+- "📂 Cargar Configuración" → Importa configuración guardada
+- "📋 Exportar a generador..." → Actualiza el script Python
+
+---
+
+### 2️⃣ PESTAÑA: PRUEBA
+
+**Generar una Tarjeta de Prueba:**
+
+1. Ingresa un **Nombre** de ejemplo
+2. Ingresa un **Cargo** de ejemplo
+3. Haz clic en "🔍 Vista Previa" para ver cómo queda
+4. Si te gusta, haz clic en "💾 Generar Tarjeta"
+
+La tarjeta se guardará en la carpeta `output/`
+
+---
+
+### 3️⃣ PESTAÑA: GENERACIÓN MASIVA
+
+**Generar Múltiples Tarjetas:**
+
+1. **Escribe los datos** en el cuadro de texto:
+   ```
+   Adrian Hinojosa,Analista de Sistemas
+   María García,Gerente de Ventas
+   Juan Pérez,Supervisor de Logística
+   ```
+   
+   **Formato:** `Nombre,Cargo` (una línea por persona)
+
+2. **O carga un archivo CSV:**
+   - Haz clic en "📂 Cargar desde CSV"
+   - Selecciona tu archivo
+
+3. **Genera todas las tarjetas:**
+   - Haz clic en "🚀 Generar Todas las Tarjetas"
+   - Verás una barra de progreso
+   - Las tarjetas se guardan en `output/`
+
+---
+
+## 📂 ARCHIVOS INCLUIDOS
+
+```
+dist/
+├── Editor_Cumpleanos.exe          ← Ejecuta este archivo
+├── Plantilla Cumpleaños.png       ← Imagen base (puedes cambiarla)
+├── fonnts.com-Sarvatrik_Latin_VF_Thin.otf  ← Fuente (puedes cambiarla)
+├── generador_cumpleanos.py        ← Script de Python (se actualiza automáticamente)
+└── output/                        ← Aquí se guardan las tarjetas
+```
+
+---
+
+## 💡 CONSEJOS
+
+✅ **Primera vez:** Carga la plantilla y fuente desde los archivos incluidos  
+✅ **Ajusta con precisión:** Usa el zoom para ver detalles  
+✅ **Prueba antes:** Siempre genera una vista previa antes del masivo  
+✅ **Guarda tu configuración:** Una vez que esté perfecta, guárdala en JSON  
+✅ **Archivos CSV:** El formato más fácil para datos masivos  
+
+---
+
+## ❓ PREGUNTAS FRECUENTES
+
+**P: ¿Puedo usar mi propia plantilla?**  
+R: Sí, haz clic en "Cargar Plantilla" y selecciona tu imagen
+
+**P: ¿Puedo usar otra fuente?**  
+R: Sí, haz clic en "Cargar Fuente" y selecciona tu archivo TTF/OTF
+
+**P: ¿Dónde se guardan las tarjetas?**  
+R: En la carpeta `output/` dentro de este directorio
+
+**P: Los textos no se ven bien**  
+R: Ajusta los rectángulos arrastrando las esquinas y el centro
+
+**P: ¿Cómo uso archivos CSV?**  
+R: Crea un archivo de texto con formato:  
+   `Nombre,Cargo` (una línea por persona)
+
+---
+
+## 🚀 INICIO RÁPIDO
+
+1. **Abre** `Editor_Cumpleanos.exe`
+2. **Ve a pestaña "Prueba"**
+3. **Escribe** un nombre y cargo
+4. **Haz clic** en "Vista Previa"
+5. **Ajusta** los rectángulos en "Configuración" si es necesario
+6. **Genera** tus tarjetas en "Generación Masiva"
+
+---
+
+## 📞 SOPORTE
+
+Si tienes problemas:
+1. Verifica que todos los archivos estén en la misma carpeta
+2. Asegúrate de tener la plantilla y fuente cargadas
+3. Revisa que el formato de datos sea correcto: `Nombre,Cargo`
+
+---
+
+**¡Listo para crear tarjetas de cumpleaños! 🎂**
+
+Desarrollado para **Almacenes del Perú** 🏢
